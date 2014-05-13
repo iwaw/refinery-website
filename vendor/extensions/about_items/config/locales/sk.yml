@@ -1,0 +1,29 @@
+sk:
+  refinery:
+    plugins:
+      about_items:
+        title: About Items
+    about_items:
+      admin:
+        about_items:
+          actions:
+            create_new: Pridať About Item
+            reorder: Preusporiadať About Items
+            reorder_done: Koniec radenia About Items
+          records:
+            title: About Items
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne About Items. Kliknite na "Pridať About Item" pre pridanie prvého about item.
+          about_item:
+            view_live_html: Zobraziť náhľad about item<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť about item
+            delete: Zmazať about item
+      about_items:
+        show:
+          other: Daľšie About Items
+  activerecord:
+    attributes:
+      'refinery/about_items/about_item':
+        title: Title
+        info: Info
+        photo: Photo

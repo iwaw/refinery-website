@@ -1,6 +1,8 @@
 PATH
   remote: vendor/extensions
   specs:
+    refinerycms-about_items (1.0)
+      refinerycms-core (~> 2.1.2)
     refinerycms-conferences (1.0)
       refinerycms-core (~> 2.1.2)
 
@@ -192,6 +194,7 @@ DEPENDENCIES
   pg
   rails (= 3.2.17)
   refinerycms (~> 2.1.0)
+  refinerycms-about_items!
   refinerycms-acts-as-indexed (~> 1.0.0)
   refinerycms-conferences!
   sass-rails (~> 3.2.3)

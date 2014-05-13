@@ -1,0 +1,31 @@
+zh-CN:
+  refinery:
+    plugins:
+      about_items:
+        title: About Items
+    about_items:
+      admin:
+        about_items:
+          actions:
+            create_new: 建立新的 About Item
+            reorder: 对 About Items 重新排序
+            reorder_done: 对 About Items 的重新排序结束
+          records:
+            title: About Items
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no About Items yet. Click "Add New About Item" to add your first about item.
+            no_items_yet: 目前没有 About Items . 点击 "Add New About Item" 创建一个about item.
+          about_item:
+            view_live_html: 查看 about item 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 about item
+            delete: 永久删除 about item
+      about_items:
+        show:
+          other: 其他 About Items
+  activerecord:
+    attributes:
+      'refinery/about_items/about_item':
+        title: Title
+        info: Info
+        photo: Photo

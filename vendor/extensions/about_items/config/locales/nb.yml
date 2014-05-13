@@ -1,0 +1,29 @@
+nb:
+  refinery:
+    plugins:
+      about_items:
+        title: About Items
+    about_items:
+      admin:
+        about_items:
+          actions:
+            create_new: Lag en ny About Item
+            reorder: Endre rekkefølgen på About Items
+            reorder_done: Ferdig å endre rekkefølgen About Items
+          records:
+            title: About Items
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen About Items enda. Klikk på "Lag en ny About Item" for å legge til din første about item.
+          about_item:
+            view_live_html: Vis hvordan denne about item ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne about item
+            delete: Fjern denne about item permanent
+      about_items:
+        show:
+          other: Andre About Items
+  activerecord:
+    attributes:
+      'refinery/about_items/about_item':
+        title: Title
+        info: Info
+        photo: Photo

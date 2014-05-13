@@ -11,3 +11,6 @@ Refinery::Pages::Engine.load_seed
 
 # Added by Refinery CMS Conferences extension
 Refinery::Conferences::Engine.load_seed
+
+# Added by Refinery CMS AboutItems extension
+Refinery::AboutItems::Engine.load_seed

@@ -1,0 +1,30 @@
+es:
+  refinery:
+    plugins:
+      about_items:
+        title: About Items
+#        article: masculino/femenino
+    about_items:
+      admin:
+        about_items:
+          actions:
+            create_new: Crear nuevo about item
+            reorder: Reordenar about items
+            reorder_done: Reordenación de about items completada
+          records:
+            title: About Items
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay about items todavía. Pulsa en "Crear nuevo About Item" para crear tu primer about item.
+          about_item:
+            view_live_html: Ver este about item como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este about item
+            delete: Borrar este about item para siempre
+      about_items:
+        show:
+          other: Otros about items
+  activerecord:
+    attributes:
+      'refinery/about_items/about_item':
+        title: Title
+        info: Info
+        photo: Photo

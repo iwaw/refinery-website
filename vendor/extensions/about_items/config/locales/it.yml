@@ -1,0 +1,29 @@
+it:
+  refinery:
+    plugins:
+      about_items:
+        title: About Items
+    about_items:
+      admin:
+        about_items:
+          actions:
+            create_new: Aggiungi Nuovo About Item
+            reorder: Riordina About Items
+            reorder_done: Termina il Riordino di About Items
+          records:
+            title: About Items
+            sorry_no_results: "Spiacenti! Nessun risultato trovato"
+            no_items_yet: Non ci sono ancora About Items. Clicca "Aggiungi Nuovo About Item" per aggiungere il tuo primo about item.
+          about_item:
+            view_live_html: Guarda live questo about item <br/><em>(apre una nuova finestra)</em>
+            edit: Modifica questo about item
+            delete: Rimuovi per sempre questo about item
+      about_items:
+        show:
+          other: Altri About Items
+  activerecord:
+    attributes:
+      'refinery/about_items/about_item':
+        title: Title
+        info: Info
+        photo: Photo

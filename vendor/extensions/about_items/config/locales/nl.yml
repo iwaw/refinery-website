@@ -1,0 +1,29 @@
+nl:
+  refinery:
+    plugins:
+      about_items:
+        title: About Items
+    about_items:
+      admin:
+        about_items:
+          actions:
+            create_new: Nieuwe About Item toevoegen
+            reorder: De volgorde van de About Items wijzigen
+            reorder_done: Klaar met het wijzingen van de van de About Item-volgorde
+          records:
+            title: About Items
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen About Items. Druk op 'Nieuwe About Item toevoegen' om de eerste toe te voegen.
+          about_item:
+            view_live_html: Deze about item op de website bekijken <br/><em>(opent in een nieuw venster)</em>
+            edit: Bewerk deze about item
+            delete: Deze about item definitief verwijderen
+      about_items:
+        show:
+          other: Andere About Items
+  activerecord:
+    attributes:
+      'refinery/about_items/about_item':
+        title: Title
+        info: Info
+        photo: Photo

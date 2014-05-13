@@ -1,0 +1,29 @@
+fr:
+  refinery:
+    plugins:
+      about_items:
+        title: About Items
+    about_items:
+      admin:
+        about_items:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) About Item
+            reorder: Réordonner les About Items
+            reorder_done: Fin de réordonnancement des About Items
+          records:
+            title: About Items
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) About Item. Cliquer sur "Créer un(e) nouve(au/l/lle) About Item" pour créer votre premi(er/ère) about item.'
+          about_item:
+            view_live_html: Voir ce(t/tte) about item <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) about item
+            delete: Supprimer définitivement ce(t/tte) about item
+      about_items:
+        show:
+          other: Autres About Items
+  activerecord:
+    attributes:
+      'refinery/about_items/about_item':
+        title: Title
+        info: Info
+        photo: Photo
