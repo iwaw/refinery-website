@@ -54,18 +54,22 @@ body {
 	
 }
 
+a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #444444;
+  hover {
+  	color: #940016;	
+  }	
+}
+
 ul {
   list-style: none;
   padding: 0px;
   li {
     float: left;
     margin-right: 10px;
-    a {
-      display: block;
-      padding: 5px 10px;
-      text-decoration: none;
-	  color: #940016;
-    }
     &.selected a, a:hover {
       background: #CCC;
     }
