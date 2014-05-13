@@ -1,0 +1,33 @@
+fr:
+  refinery:
+    plugins:
+      conferences:
+        title: Conferences
+    conferences:
+      admin:
+        conferences:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Conference
+            reorder: Réordonner les Conferences
+            reorder_done: Fin de réordonnancement des Conferences
+          records:
+            title: Conferences
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Conference. Cliquer sur "Créer un(e) nouve(au/l/lle) Conference" pour créer votre premi(er/ère) conference.'
+          conference:
+            view_live_html: Voir ce(t/tte) conference <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) conference
+            delete: Supprimer définitivement ce(t/tte) conference
+      conferences:
+        show:
+          other: Autres Conferences
+  activerecord:
+    attributes:
+      'refinery/conferences/conference':
+        title: Title
+        date: Date
+        info: Info
+        photo1: Photo1
+        photo2: Photo2
+        photo3: Photo3
+        photo4: Photo4

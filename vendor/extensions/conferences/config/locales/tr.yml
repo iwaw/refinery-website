@@ -1,0 +1,33 @@
+tr:
+  refinery:
+    plugins:
+      conferences:
+        title: Conferences
+    conferences:
+      admin:
+        conferences:
+          actions:
+            create_new: Yeni Ekle Conference
+            reorder: Tekrar sirala Conferences
+            reorder_done: Tekrar siralama tamamlandiConferences
+          records:
+            title: Conferences
+            sorry_no_results: Uzgunum! Herhangi bir sonuc bulunamadi.
+            no_items_yet: Herhangi bir Conferences yok henuz.  Tikla "Yeni Ekle Conference" eklemek senin ilk conference.
+          conference:
+            view_live_html: Bunu canlu conference goruntule <br/><em>(yeni bir pencerede acar)</em>
+            edit: Bunu Duzenle conference
+            delete: Bunu Sil conference sonsuza dek
+      conferences:
+        show:
+          other: Diger Conferences
+  activerecord:
+    attributes:
+      'refinery/conferences/conference':
+        title: Title
+        date: Date
+        info: Info
+        photo1: Photo1
+        photo2: Photo2
+        photo3: Photo3
+        photo4: Photo4

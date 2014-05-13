@@ -1,0 +1,34 @@
+es:
+  refinery:
+    plugins:
+      conferences:
+        title: Conferences
+#        article: masculino/femenino
+    conferences:
+      admin:
+        conferences:
+          actions:
+            create_new: Crear nuevo conference
+            reorder: Reordenar conferences
+            reorder_done: Reordenación de conferences completada
+          records:
+            title: Conferences
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay conferences todavía. Pulsa en "Crear nuevo Conference" para crear tu primer conference.
+          conference:
+            view_live_html: Ver este conference como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este conference
+            delete: Borrar este conference para siempre
+      conferences:
+        show:
+          other: Otros conferences
+  activerecord:
+    attributes:
+      'refinery/conferences/conference':
+        title: Title
+        date: Date
+        info: Info
+        photo1: Photo1
+        photo2: Photo2
+        photo3: Photo3
+        photo4: Photo4

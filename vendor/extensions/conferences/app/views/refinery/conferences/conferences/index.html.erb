@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="conferences">
+    <% @conferences.each do |conference| %>
+      <li>
+        <%= link_to conference.title, refinery.conferences_conference_path(conference) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

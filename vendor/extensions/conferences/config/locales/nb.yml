@@ -1,0 +1,33 @@
+nb:
+  refinery:
+    plugins:
+      conferences:
+        title: Conferences
+    conferences:
+      admin:
+        conferences:
+          actions:
+            create_new: Lag en ny Conference
+            reorder: Endre rekkefølgen på Conferences
+            reorder_done: Ferdig å endre rekkefølgen Conferences
+          records:
+            title: Conferences
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Conferences enda. Klikk på "Lag en ny Conference" for å legge til din første conference.
+          conference:
+            view_live_html: Vis hvordan denne conference ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne conference
+            delete: Fjern denne conference permanent
+      conferences:
+        show:
+          other: Andre Conferences
+  activerecord:
+    attributes:
+      'refinery/conferences/conference':
+        title: Title
+        date: Date
+        info: Info
+        photo1: Photo1
+        photo2: Photo2
+        photo3: Photo3
+        photo4: Photo4

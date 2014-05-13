@@ -1,0 +1,33 @@
+sk:
+  refinery:
+    plugins:
+      conferences:
+        title: Conferences
+    conferences:
+      admin:
+        conferences:
+          actions:
+            create_new: Pridať Conference
+            reorder: Preusporiadať Conferences
+            reorder_done: Koniec radenia Conferences
+          records:
+            title: Conferences
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne Conferences. Kliknite na "Pridať Conference" pre pridanie prvého conference.
+          conference:
+            view_live_html: Zobraziť náhľad conference<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť conference
+            delete: Zmazať conference
+      conferences:
+        show:
+          other: Daľšie Conferences
+  activerecord:
+    attributes:
+      'refinery/conferences/conference':
+        title: Title
+        date: Date
+        info: Info
+        photo1: Photo1
+        photo2: Photo2
+        photo3: Photo3
+        photo4: Photo4

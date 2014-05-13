@@ -11,7 +11,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140429034555) do
+ActiveRecord::Schema.define(:version => 20140513101329) do
+
+  create_table "refinery_conferences", :force => true do |t|
+    t.string   "title"
+    t.datetime "date"
+    t.text     "info"
+    t.integer  "photo1_id"
+    t.integer  "photo2_id"
+    t.integer  "photo3_id"
+    t.integer  "photo4_id"
+    t.integer  "position"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "refinery_images", :force => true do |t|
     t.string   "image_mime_type"
@@ -78,6 +91,7 @@ ActiveRecord::Schema.define(:version => 20140429034555) do
     t.string   "layout_template"
     t.datetime "created_at",                             :null => false
     t.datetime "updated_at",                             :null => false
+    t.integer  "background_image_id"
   end
 
   add_index "refinery_pages", ["depth"], :name => "index_refinery_pages_on_depth"

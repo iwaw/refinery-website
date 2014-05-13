@@ -1,0 +1,33 @@
+nl:
+  refinery:
+    plugins:
+      conferences:
+        title: Conferences
+    conferences:
+      admin:
+        conferences:
+          actions:
+            create_new: Nieuwe Conference toevoegen
+            reorder: De volgorde van de Conferences wijzigen
+            reorder_done: Klaar met het wijzingen van de van de Conference-volgorde
+          records:
+            title: Conferences
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Conferences. Druk op 'Nieuwe Conference toevoegen' om de eerste toe te voegen.
+          conference:
+            view_live_html: Deze conference op de website bekijken <br/><em>(opent in een nieuw venster)</em>
+            edit: Bewerk deze conference
+            delete: Deze conference definitief verwijderen
+      conferences:
+        show:
+          other: Andere Conferences
+  activerecord:
+    attributes:
+      'refinery/conferences/conference':
+        title: Title
+        date: Date
+        info: Info
+        photo1: Photo1
+        photo2: Photo2
+        photo3: Photo3
+        photo4: Photo4

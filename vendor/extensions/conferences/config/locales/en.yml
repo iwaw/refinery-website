@@ -1,0 +1,33 @@
+en:
+  refinery:
+    plugins:
+      conferences:
+        title: Conferences
+    conferences:
+      admin:
+        conferences:
+          actions:
+            create_new: Add New Conference
+            reorder: Reorder Conferences
+            reorder_done: Done Reordering Conferences
+          records:
+            title: Conferences
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Conferences yet. Click "Add New Conference" to add your first conference.
+          conference:
+            view_live_html: View this conference live <br/><em>(opens in a new window)</em>
+            edit: Edit this conference
+            delete: Remove this conference forever
+      conferences:
+        show:
+          other: Other Conferences
+  activerecord:
+    attributes:
+      'refinery/conferences/conference':
+        title: Title
+        date: Date
+        info: Info
+        photo1: Photo1
+        photo2: Photo2
+        photo3: Photo3
+        photo4: Photo4
