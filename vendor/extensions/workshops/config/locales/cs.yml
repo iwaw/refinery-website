@@ -1,0 +1,34 @@
+cs:
+  refinery:
+    plugins:
+      workshops:
+        title: Workshops
+    workshops:
+      admin:
+        workshops:
+          actions:
+            create_new: Přidat Workshop
+            reorder: Řadit Workshops
+            reorder_done: Konec řazení Workshops
+          records:
+            title: Workshops
+            sorry_no_results: Litujeme, ale nebyly nalezny žádné výsledky.
+            no_items_yet: Zatím nebyly vytvořeny žádné Workshops. Zvolte "Přidat Workshop" pro přidání prvního workshop.
+          workshop:
+            view_live_html: Zobrazit náhled workshop<br/><em>(otevře se v novém okně)</em>
+            edit: Upravit workshop
+            delete: Smazat workshop
+      workshops:
+        show:
+          other: Další Workshops
+  activerecord:
+    attributes:
+      'refinery/workshops/workshop':
+        title: Title
+        start_date: Start Date
+        end_date: End Date
+        info: Info
+        photo1: Photo1
+        photo2: Photo2
+        photo3: Photo3
+        photo4: Photo4

@@ -1,0 +1,35 @@
+es:
+  refinery:
+    plugins:
+      workshops:
+        title: Workshops
+#        article: masculino/femenino
+    workshops:
+      admin:
+        workshops:
+          actions:
+            create_new: Crear nuevo workshop
+            reorder: Reordenar workshops
+            reorder_done: Reordenación de workshops completada
+          records:
+            title: Workshops
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay workshops todavía. Pulsa en "Crear nuevo Workshop" para crear tu primer workshop.
+          workshop:
+            view_live_html: Ver este workshop como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este workshop
+            delete: Borrar este workshop para siempre
+      workshops:
+        show:
+          other: Otros workshops
+  activerecord:
+    attributes:
+      'refinery/workshops/workshop':
+        title: Title
+        start_date: Start Date
+        end_date: End Date
+        info: Info
+        photo1: Photo1
+        photo2: Photo2
+        photo3: Photo3
+        photo4: Photo4

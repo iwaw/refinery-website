@@ -1,0 +1,69 @@
+<% content_for :body_content_title do %>
+  <%= @workshop.title %>
+<% end %>
+
+<% content_for :body do %>
+  <section>
+    <h1>Title</h1>
+    <p>
+      <%=raw @workshop.title %>
+    </p>
+  </section>
+  <section>
+    <h1>Start Date</h1>
+    <p>
+      <%=raw @workshop.start_date %>
+    </p>
+  </section>
+  <section>
+    <h1>End Date</h1>
+    <p>
+      <%=raw @workshop.end_date %>
+    </p>
+  </section>
+  <section>
+    <h1>Info</h1>
+    <p>
+      <%=raw @workshop.info %>
+    </p>
+  </section>
+  <section>
+    <h1>Photo1</h1>
+    <p>
+      <%= image_fu @workshop.photo1, nil %>
+    </p>
+  </section>
+  <section>
+    <h1>Photo2</h1>
+    <p>
+      <%= image_fu @workshop.photo2, nil %>
+    </p>
+  </section>
+  <section>
+    <h1>Photo3</h1>
+    <p>
+      <%= image_fu @workshop.photo3, nil %>
+    </p>
+  </section>
+  <section>
+    <h1>Photo4</h1>
+    <p>
+      <%= image_fu @workshop.photo4, nil %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :side_body do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="workshops">
+      <% @workshops.each do |workshop| %>
+        <li>
+          <%= link_to workshop.title, refinery.workshops_workshop_path(workshop) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render '/refinery/content_page' %>

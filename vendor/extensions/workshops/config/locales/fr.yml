@@ -1,0 +1,34 @@
+fr:
+  refinery:
+    plugins:
+      workshops:
+        title: Workshops
+    workshops:
+      admin:
+        workshops:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Workshop
+            reorder: Réordonner les Workshops
+            reorder_done: Fin de réordonnancement des Workshops
+          records:
+            title: Workshops
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Workshop. Cliquer sur "Créer un(e) nouve(au/l/lle) Workshop" pour créer votre premi(er/ère) workshop.'
+          workshop:
+            view_live_html: Voir ce(t/tte) workshop <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) workshop
+            delete: Supprimer définitivement ce(t/tte) workshop
+      workshops:
+        show:
+          other: Autres Workshops
+  activerecord:
+    attributes:
+      'refinery/workshops/workshop':
+        title: Title
+        start_date: Start Date
+        end_date: End Date
+        info: Info
+        photo1: Photo1
+        photo2: Photo2
+        photo3: Photo3
+        photo4: Photo4

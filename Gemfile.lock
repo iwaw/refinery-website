@@ -5,6 +5,8 @@ PATH
       refinerycms-core (~> 2.1.2)
     refinerycms-conferences (1.0)
       refinerycms-core (~> 2.1.2)
+    refinerycms-workshops (1.0)
+      refinerycms-core (~> 2.1.2)
 
 GEM
   remote: https://rubygems.org/
@@ -197,6 +199,7 @@ DEPENDENCIES
   refinerycms-about_items!
   refinerycms-acts-as-indexed (~> 1.0.0)
   refinerycms-conferences!
+  refinerycms-workshops!
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)

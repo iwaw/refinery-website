@@ -1,0 +1,36 @@
+zh-CN:
+  refinery:
+    plugins:
+      workshops:
+        title: Workshops
+    workshops:
+      admin:
+        workshops:
+          actions:
+            create_new: 建立新的 Workshop
+            reorder: 对 Workshops 重新排序
+            reorder_done: 对 Workshops 的重新排序结束
+          records:
+            title: Workshops
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Workshops yet. Click "Add New Workshop" to add your first workshop.
+            no_items_yet: 目前没有 Workshops . 点击 "Add New Workshop" 创建一个workshop.
+          workshop:
+            view_live_html: 查看 workshop 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 workshop
+            delete: 永久删除 workshop
+      workshops:
+        show:
+          other: 其他 Workshops
+  activerecord:
+    attributes:
+      'refinery/workshops/workshop':
+        title: Title
+        start_date: Start Date
+        end_date: End Date
+        info: Info
+        photo1: Photo1
+        photo2: Photo2
+        photo3: Photo3
+        photo4: Photo4

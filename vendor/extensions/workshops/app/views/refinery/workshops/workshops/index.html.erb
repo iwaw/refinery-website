@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="workshops">
+    <% @workshops.each do |workshop| %>
+      <li>
+        <%= link_to workshop.title, refinery.workshops_workshop_path(workshop) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>
